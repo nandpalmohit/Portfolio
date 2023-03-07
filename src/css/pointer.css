@@ -8,7 +8,7 @@
     position: absolute;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 40px rgba(198, 49, 0, 0.5));
-    transform: rotate(25deg);
+    /* transform: rotate(25deg); */
 }
 
 .icons .icon-html {
@@ -19,7 +19,7 @@
     position: absolute;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 40px rgba(198, 49, 0, 0.5));
-    transform: rotate(-25deg);
+    /* transform: rotate(-25deg); */
     animation: iconTrans 2s ease-in-out 1s infinite alternate-reverse;
 }
 
@@ -30,7 +30,7 @@
     position: absolute;
     padding: 10px;
     border-radius: 10px;
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
 }
 
 .icons .icon-css {
@@ -41,7 +41,7 @@
     padding: 10px;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 40px rgba(0, 63, 198, 0.5));
-    transform: rotate(-25deg);
+    /* transform: rotate(-25deg); */
     animation: iconTrans 2s ease-in-out 1s infinite alternate-reverse;
 }
 
@@ -56,87 +56,58 @@
     animation: iconTrans 2s ease-in-out 1s infinite alternate-reverse;
 }
 
-.icons .icon-line1 {
-    top: calc(350vh - 5vh);
-    height: 50vh;
-    z-index: 0;
-    right: 0vw;
-    position: absolute;
-    padding: 10px;
-    border-radius: 10px;
-    opacity: 0;
-}
-
-.icons .icon-react {
-    display: none;
-    height: 10vh;
-    top: calc(430vh - 10vh);
-    right: 5vw;
-    position: absolute;
-    padding: 10px;
-    border-radius: 10px;
-    filter: drop-shadow(0px 5px 40px rgba(0, 198, 185, 0.4));
-    animation: iconTrans 2s ease-in-out 1s infinite alternate-reverse;
-}
-
-
-
-.icons .icon-paint {
-    height: 15vh;
-    top: calc(340vh - 15vh);
-    opacity: 1;
-    right: 1vw;
-    position: absolute;
-    padding: 10px;
-    transform: rotate(190deg);
-    border-radius: 10px;
-    /* filter: drop-shadow(0px 5px 40px rgba(0, 198, 185, 0.4)); */
-}
-
-.icons .icon-laravel {
-    display: none;
-    height: 10vh;
-    top: 300vh;
-    left: 20vw;
-    padding: 10px;
-    position: absolute;
-    border-radius: 10px;
-    filter: drop-shadow(0px 5px 40px rgba(198, 0, 0, 1));
-}
-
 
 .icons .icon-node {
+    top: calc(400vh - 5vh);
     height: 10vh;
-    top: calc(430vh - 10vh);
     right: 5vw;
     position: absolute;
     padding: 10px;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 40px rgba(0, 0, 0, 0.8));
+    animation: iconTrans 2s ease-in-out 1s infinite alternate-reverse;
+
+}
+
+.icons .icon-line1 {
+    top: calc(410vh - 10vh);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    left: -2vw;
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.2;
+}
+
+.icons .icon-arrow3 {
+    top: calc(630vh - 2vh);
+    height: 10vh;
+    left: 5vw;
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 1;
+    filter: drop-shadow(0px 5px 40px rgba(0, 0, 0, 1));
 }
 
 
 
-@keyframes iconTrans {
+.icons .icon-git @keyframes iconTrans {
     0% {
-        transform: rotate(-25deg);
+        /* transform: rotateZ(-25deg); */
+        margin-top: -20px;
+        /* maring-right: -10px; */
     }
 
     100% {
-        transform: rotate(25deg);
+        /* transform: rotateZ(25deg); */
+        margin-top: 30px;
+        /* maring-right: 10px; */
     }
 }
-
-/* @keyframes arrowTrans {
-    0% {
-        margin: 20px 0px 0px 10px;
-    }
-
-    100% {
-        margin: 0px;
-
-    }
-} */
 
 
 #pointer-dot {

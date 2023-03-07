@@ -1,0 +1,14 @@
+User Post's Comments Manager
+
+Total Time: 2 Hours
+
+We have a one user name as 'Chris Pol' who posted a one photo on our system / app.
+I supposed to commenting on the photo like 'You look owesome'
+Now Some other user who wants to reply on my comment so 
+we have to create comment with reply system which stores users comments and replies of the comments.
+
+Also you have to store login users cuurent pincode or location or city name (as per yours).
+
+
+For reference:
+Instagram User Post and comments
