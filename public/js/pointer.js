@@ -91,3 +91,9 @@ window.scrollBy({
   left: 0,
   behavior: "smooth",
 });
+
+// data aos animation
+
+AOS.init({
+  duration: 1200,
+});
