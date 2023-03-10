@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-md">
         <div className="container-fluid px-5">
           <h4 className="sans-bold me-5 mb-0">Mohit Nandpal</h4>
           <button

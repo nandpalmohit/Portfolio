@@ -45,7 +45,7 @@ const About = () => {
         </div>
       </div>
       <div className="row container about-card mx-auto">
-        <div className="col-sm-12 col-md-9 col-lg-8">
+        <div className="col-sm-12 col-md-8 col-lg-8">
           <h4
             className="sans-semibold mb-2 rem1"
             data-aos="fade-up"
@@ -96,7 +96,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-3 col-lg-4">
+        <div className="col-sm-12 col-md-4 col-lg-4">
           <div className="row">
             <h4
               className="sans-semibold mb-2 rem1"
